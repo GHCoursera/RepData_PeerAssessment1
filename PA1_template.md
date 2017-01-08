@@ -1,11 +1,6 @@
 ---
 title: 'Reproducible Research: Peer Assessment 1'
 ---
-```{r opts, echo = FALSE}
-knitr::opts_chunk$set(
-  fig.path = "figures/"
-)
-```
 
 
 ## Loading and preprocessing the data
@@ -112,5 +107,3 @@ library(lattice)
 xyplot(steps ~ interval | daylevel, stepsByDay, type = "l", layout = c(1, 2), 
     xlab = "Interval", ylab = "Number of steps")
 ```   
-
-
