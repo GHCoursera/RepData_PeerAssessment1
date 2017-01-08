@@ -1,6 +1,14 @@
 ---
 title: 'Reproducible Research: Peer Assessment 1'
+output: 
+  html_document: 
+    toc: yes
 ---
+```{r opts, echo = FALSE}
+knitr::opts_chunk$set(
+  fig.path = "figures/"
+)
+```
 
 
 ## Loading and preprocessing the data
